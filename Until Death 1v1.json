@@ -1,6 +1,6 @@
 {
-	"Name": "Til' Death 1v1 Balance",
-	"Version": 1741716730,
+	"Name": "Til' Death 1v1 Balance V2",
+	"Version": 1741833331,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -394,6 +394,10 @@
 				[
 					"159",
 					"243"
+				],
+				[
+					"135",
+					"249"
 				]
 			],
 			"SurvivorIndvPerkBans": [],
@@ -427,13 +431,11 @@
 				"4",
 				"8",
 				"31",
-				"32",
 				"42",
-				"261",
 				"101",
-				"76",
 				"87",
 				"95",
+				"107",
 				"123",
 				"129"
 			],
@@ -444,7 +446,6 @@
 				"255",
 				"148",
 				"159",
-				"243",
 				"213",
 				"229",
 				"249",
@@ -504,29 +505,62 @@
 		},
 		{
 			"Name": "The Wraith",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "Each Killer And Each Survivor May Bring Up To 2 Perks Each.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"0"
 			],
 			"BalanceTiers": [
-				0
+				1
 			],
 			"SurvivorBalanceTiers": [
-				0
+				1
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
-			"KillerComboPerkBans": [],
+			"KillerComboPerkBans": [
+				[
+					"135",
+					"249"
+				]
+			],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
-			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedPerks": [
+				"8",
+				"31",
+				"42",
+				"101",
+				"87",
+				"95",
+				"107",
+				"123",
+				"129"
+			],
 			"SurvivorWhitelistedComboPerks": [],
-			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedPerks": [
+				"135",
+				"142",
+				"255",
+				"148",
+				"159",
+				"249",
+				"240"
+			],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				37,
+				38,
+				39,
+				24,
+				36,
+				34,
+				33
+			],
+			"ItemWhitelist": [
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
@@ -548,7 +582,9 @@
 				}
 			},
 			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Hillbilly",
@@ -571,8 +607,6 @@
 			"SurvivorWhitelistedPerks": [
 				"4",
 				"31",
-				"32",
-				"35",
 				"42",
 				"261",
 				"101",
@@ -589,7 +623,6 @@
 				"255",
 				"148",
 				"159",
-				"243",
 				"213",
 				"229",
 				"249"
@@ -1279,19 +1312,23 @@
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
-			"KillerComboPerkBans": [],
+			"KillerComboPerkBans": [
+				[
+					"135",
+					"249"
+				]
+			],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [
 				"4",
 				"8",
 				"31",
-				"32",
 				"42",
 				"101",
-				"76",
 				"87",
 				"95",
+				"107",
 				"123"
 			],
 			"SurvivorWhitelistedComboPerks": [],
@@ -1300,8 +1337,6 @@
 				"142",
 				"255",
 				"148",
-				"159",
-				"243",
 				"213",
 				"229",
 				"249"
@@ -1521,8 +1556,6 @@
 			"SurvivorWhitelistedPerks": [
 				"4",
 				"31",
-				"32",
-				"35",
 				"42",
 				"261",
 				"101",
@@ -1538,7 +1571,6 @@
 				"142",
 				"255",
 				"148",
-				"243",
 				"213",
 				"229",
 				"249",
